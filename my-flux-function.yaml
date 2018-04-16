@@ -1,0 +1,10 @@
+---
+apiVersion: projectriff.io/v1alpha1
+kind: Function
+metadata:
+  name: my-flux
+spec:
+  container:
+    image: trisberg/my-flux:0.0.1
+  input: my-flux
+  protocol: grpc
